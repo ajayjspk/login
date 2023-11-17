@@ -1,0 +1,43 @@
+.signup-container {
+    max-width: 480px;
+    width: 100%;
+    padding: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -36%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #1b1c23;
+    border-radius: 8px;
+    text-align: left;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.label {
+    color: rgb(145, 145, 145);
+    font-weight: bold;
+    text-align: left;
+}
+
+.check {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.check input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    height: 1rem;
+    width: 1rem;
+    display: inline;
+    bottom: 1px;
+}
+
+.check label {
+    margin-left: 1rem;
+}
